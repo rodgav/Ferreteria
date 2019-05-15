@@ -1,0 +1,17 @@
+<div class="jumbotron jumbotron-fluid text-center">
+  <img class="img-fluid"
+       src="https://scontent.faqp2-1.fna.fbcdn.net/v/t1.0-9/59765362_2426640184036446_1475251009100972032_o.jpg?_nc_cat=107&_nc_ht=scontent.faqp2-1.fna&oh=b5f98ca844962a713a87009fc6d1ed93&oe=5D6CC67A"
+       alt="Relaja2">
+</div>
+<mat-toolbar [fxShow]="true" color="primary" *ngIf="logeado" ngDefaultControl>
+  <span>
+    Inicio
+  </span>
+  <span class="fill-remaining-space"></span>
+  <button mat-button routerLink="productos">Productos</button>
+  <button mat-button routerLink="productos">Reportes</button>
+  <button mat-button routerLink="productos">Proveedores</button>
+  <button mat-button routerLink="usuarios">Usuarios</button>
+  <span fxFlex></span>
+  <button mat-button (click)="Salir()">Salir</button>
+</mat-toolbar>
