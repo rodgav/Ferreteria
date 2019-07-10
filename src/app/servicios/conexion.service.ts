@@ -7,7 +7,7 @@ import {map} from 'rxjs/operators';
 })
 export class ConexionService {
 
-  private url = 'http://rsgm.online/APIFerreteria/V1/';
+  private url = 'http://192.168.1.10/APIFerreteria/V1/';
 
   constructor(protected http: HttpClient) {
   }

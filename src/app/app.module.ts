@@ -19,13 +19,15 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {NgbAlertModule} from '@ng-bootstrap/ng-bootstrap';
+import { ProductosComponent } from './productos/productos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ProductosComponent
   ],
   imports: [
     BrowserModule,
